@@ -1,0 +1,132 @@
+#title {
+  background-color: #bbbbbb;
+}
+
+.intro {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 1% 15%;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+/* navigation Bar */
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Githun and LinkedIn Buttons */
+
+.my_custom_class {
+  margin-top: 4rem;
+  margin-right: 1rem;
+}
+
+.profile-pic {
+  width: 80%;
+  transform: rotate(0deg);
+}
+
+.education_class {
+  padding-top: 5rem;
+}
+
+/* Education Section */
+
+#Education {
+  padding: 7% 15%;
+}
+
+.my_education_class {
+  text-align: center;
+  padding: 5%;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+p {
+  color: grey;
+}
+
+.grad_cap:hover {
+  transform: scale(1.5);
+}
+
+.university:hover {
+  transform: scale(1.5);
+}
+
+
+/* Testimonial Section */
+
+#testimonials {
+  text-align: center;
+  background-color: grey;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+#coding-logos {
+  padding: 0 0 3rem 0;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+/* Contact Me */
+
+#contact {
+  padding: 7% 15%;
+}
+
+/* Footer */
+.bottom-container {
+  background-color: grey;
+  padding: 50px 0px 20px;
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+.footer-link {
+  color: #fff;
+  padding-right: 3rem;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
