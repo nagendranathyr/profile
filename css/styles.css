@@ -131,10 +131,4 @@ p {
     text-align: center;
     width: 80%;
   }
-
-  #Education {
-    padding: 7% 15%;
-    position: static;
-    background-color: white;
-  }
 }
