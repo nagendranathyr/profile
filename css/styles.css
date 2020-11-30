@@ -1,10 +1,30 @@
-body, h1, h2, h3, h4, h5, h6 {
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat";
   text-align: center;
 }
 
 p {
   color: grey;
+}
+
+#title {
+  text-align: left;
+}
+
+
+/* Sections */
+.colored-section {
+  background-color: grey;
+  color: #000;
+}
+
+.white-section {
+  background-color: #fff;
 }
 
 
@@ -40,9 +60,6 @@ p {
   font-family: Ubuntu;
 }
 
-#title {
-  background-color: #bbbbbb;
-}
 
 /* Github and LinkedIn Buttons */
 .education_class {
@@ -56,10 +73,10 @@ p {
 }
 
 .profile-pic {
-  width: 80%;
   transform: rotate(0deg);
   position: absolute;
-  text-align: left;
+  text-align: center;
+  width: 80%;
 }
 
 /* Education Section */
@@ -71,8 +88,16 @@ p {
 #Education {
   padding: 7% 15%;
   position: relative;
-  background-color: white;
   z-index: -1;
+}
+
+.education_icon {
+  color:#560d0d;
+  padding-bottom: 2rem;
+}
+
+.education_icon:hover {
+  transform: scale(1.5);
 }
 
 .my_education_class {
@@ -87,10 +112,6 @@ p {
 
 #coding-logos {
   padding: 0 0 3rem 0;
-}
-
-#learning {
-  background-color: grey;
 }
 
 .skills {
@@ -112,7 +133,6 @@ p {
 }
 
 #footer {
-  background-color: grey;
   padding: 3% 6%;
   font-family: 'Montserrat';
   font-size: 2rem;
@@ -121,8 +141,7 @@ p {
 
 /* Media Queries */
 @media (max-width: 1028px) {
-
-  .lowerpixel {
+  h1.intro {
     text-align: center;
   }
 
@@ -130,5 +149,9 @@ p {
     position: static; <!--This is the actual change-->
     text-align: center;
     width: 80%;
+  }
+
+  #title {
+    text-align: center;
   }
 }
